@@ -126,7 +126,6 @@ adb shell "pm disable-user --user 0 com.google.android.overlay.modules.ext.servi
 adb shell "pm disable-user --user 0 com.sec.phone"
 adb shell "pm disable-user --user 0 com.samsung.android.location"
 adb shell "pm disable-user --user 0 com.android.traceur"
-adb shell "pm disable-user --user 0 com.samsung.android.app.routines"
 adb shell "pm disable-user --user 0 com.samsung.android.samsungpassautofill"
 adb shell "pm disable-user --user 0 com.samsung.ims.smk"
 adb shell "pm disable-user --user 0 com.sec.android.app.wlantest"
@@ -392,3 +391,4 @@ adb shell "pm disable-user --user 0 com.test.LTEfunctionality"
 ::major  ::appinfo
 ::android
 ::com.samsung.android.app.clockpack
+::com.samsung.android.app.routines
